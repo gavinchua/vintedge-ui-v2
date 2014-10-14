@@ -1,9 +1,9 @@
-Vintedge-UI
-===========
+Vintedge-UI V2
+==============
 
 ![Vintedge](http://vintedge.com/images/logo.gif "Vintedge")
 
-###Vintedge UI Template
+###Vintedge UI Template V2
 Automation for UI Developement.<br />
 <sup>Note: This template is still in development.</sup>
 
