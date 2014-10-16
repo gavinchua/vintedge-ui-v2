@@ -6,7 +6,7 @@ module.exports = {
 		files: {
 			'assets/css/dist/style.css': [
 				'assets/css/src/style.styl',
-				'assets/css/src/structure/*.styl'
+				'assets/css/src/structure/*/*.styl'
 			]
 		}
 	}

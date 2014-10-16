@@ -1,5 +1,10 @@
 <?php
 require_once "db/medoo.min.php";
+/*
+ * http://medoo.in/doc
+ */
+
+
 
 /*
  * ERROR DEBUG
@@ -13,41 +18,42 @@ ini_set ( "display_errors" , 1 );
  */
 session_start();
 
+
 /*
  * TIMEZONE
  */
 date_default_timezone_set('Asia/Singapore');
 
-/*
- * FEEDBACK FIELDS ARRAY
- */
-function requiredFeedbackFields() {
-	$requiredFeedbackFields = array(
-		"type",
-		"name",
-		"contactnumber",
-		"email",
-		"number",
-		"comments"
-	);
-	return $requiredFeedbackFields;
-}
-
 
 /*
- * INSERT FEEDBACK
+ * INITIALIZE MED0O
  */
-/*$database->insert('ph_feedback', [
-  'user_name' => 'foo'
-  'email' => 'foo@bar.com',
-  'age' => 25,
-  'lang' => ['en', 'fr', 'jp', 'cn']
-]);*/
 $database = new medoo();
+/*$database = new medoo([
+// required
+'database_type' => 'mysql',
+'database_name' => 'name',
+'server' => 'localhost',
+'username' => 'your_username',
+'password' => 'your_password',
+ 
+// optional
+'port' => 3306,
+'charset' => 'utf8',
+// driver_option for connection, read more from http://www.php.net/manual/en/pdo.setattribute.php
+'option' => [
+PDO::ATTR_CASE => PDO::CASE_NATURAL
+]
+]);
+ 
+$database->insert("account", [
+"user_name" => "foo",
+"email" => "foo@bar.com"
+]);*/
 
 
 /*
- * SELECTED
+ * FIELD RADIO SELECTED
  */
 function selected_default($value,$default) {
 	if ($value == $default) {
@@ -107,15 +113,8 @@ function sendMail($to, $cc, $from, $from_name, $subject, $htmlBody, $textBody) {
 	
 	$mail = new PHPMailer();
 	
-	/*$mail->isSMTP();                                      // Set mailer to use SMTP
-	$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
-	//$mail->SMTPAuth = true;                               // Enable SMTP authentication
-	$mail->Username = 'gavin@vintedge.com';                 // SMTP username
-	$mail->Password = '';                           // SMTP password
-	//$mail->SMTPSecure = 'tls';*/
-	
 	$mail->isSMTP();
-	$mail->Host = '10.10.10.10';
+	$mail->Host = 'localhost';
 	
 	$mail->From = $from;
 	$mail->FromName = $from_name;

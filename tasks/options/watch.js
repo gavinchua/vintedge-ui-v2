@@ -3,15 +3,15 @@ module.exports = {
 		livereload: true,
 	},
 	scripts: {
-		files: ['assets/js/src/script.js'],
-		tasks: ['jshint'],
+		files: ['assets/js/src/plugins/*.js', 'assets/js/src/script.js'],
+		tasks: ['jshint', 'concat', 'uglify'],
 		options: {
 			spawn: false,
 		}
 	},
 	css: {
-		files: ['assets/css/src/structure/*.styl', 'assets/css/src/plugins/*.css' , 'assets/css/src/style.styl'],
-		tasks: ['stylus'],
+		files: ['assets/css/src/style.styl', 'assets/css/src/plugins/*.css', 'assets/css/src/structure/*/*.styl'],
+		tasks: ['stylus', 'cssmin'],
 		options: {
 			spawn: false,
 		}
