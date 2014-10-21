@@ -1,6 +1,6 @@
 module.exports = {
 	build: {
-		src: 'assets/js/dist/script.js',
-		dest: 'assets/js/dist/script.min.js',
+		src: 'assets/js/dist/script.js',	// src
+		dest: 'assets/js/dist/script.min.js',	// dist
 	}
 }

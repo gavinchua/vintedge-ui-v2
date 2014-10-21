@@ -129,6 +129,11 @@ A platform built on Chrome's JavaScript runtime for easily building fast, scalab
 http://nodejs.org/
 
 
+####npm cheet sheet:
+http://browsenpm.org/help
+http://www.codechewing.com/library/node-js-npm-cheatsheet/
+
+
 ####A Good UI
 A Good User Interface has high conversion rates and is easy to use. In other words, it's nice to both the business side as well as the people using it.<br />
 http://www.goodui.org/
