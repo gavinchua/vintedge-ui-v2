@@ -21,8 +21,9 @@ Functions
 	
 	$( document ).ready( function() {
 		/*	--------------------------------------------------
-			:: 
+			:: Window Width
 			-------------------------------------------------- */
+			windowWidthFN();
 			
 			
 	});
@@ -75,7 +76,7 @@ Functions
 	/*	--------------------------------------------------
 		:: Window Width
 		-------------------------------------------------- */
-		function windowWidth() {
+		function windowWidthFN() {
 			var windowWidth =  $( window ).width();
 			return windowWidth;
 		}
