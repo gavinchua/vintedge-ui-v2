@@ -10,7 +10,7 @@ module.exports = {
 		}
 	},
 	css: {
-		files: ['assets/css/src/style.styl', 'assets/css/src/plugins/*.css', 'assets/css/src/structure/*/*.styl'],
+		files: ['assets/css/src/structure/style.styl', 'assets/css/src/plugins/*.css', 'assets/css/src/structure/*/*.styl'],
 		tasks: ['stylus', 'cssmin'],
 		options: {
 			spawn: false,
