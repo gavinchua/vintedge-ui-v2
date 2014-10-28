@@ -30,6 +30,7 @@
 		<!--[if gt IE 8]><!-->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/dist/vendor/jquery.2.min.js"><\/script>')</script>
+		<script src="assets/js/dist/vendor/jquery-migrate-1.2.1.js"></script>
 		<!--<script src="assets/js/bootstrap.js"></script>-->
 		<!--<![endif]-->
 		
