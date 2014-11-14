@@ -130,7 +130,7 @@ http://nodejs.org/
 
 
 ####npm cheet sheet:
-http://browsenpm.org/help
+http://browsenpm.org/help<br />
 http://www.codechewing.com/library/node-js-npm-cheatsheet/
 
 
