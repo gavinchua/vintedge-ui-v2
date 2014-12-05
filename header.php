@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/dist/style.min.css">
 		
-		<script src="assets/js/dist/vendor/modernizr.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 	</head>
 	
 	<body>
