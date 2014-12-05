@@ -3,19 +3,7 @@
 		<!--  ==============  -->
 		<footer>
 			<div class="row">
-				<div class="col-md-6">
-					&copy; Copyright 2014 Motorola Solutions, Inc. All rights reserved.
-				</div>
-				<div class="col-md-6">
-					<ul>
-						<li>
-							<a href="#">Terms & Conditions</a>
-						</li>
-						<li>
-							<a href="#">Privacy Policy</a>
-						</li>
-					</ul>
-				</div>
+				
 			</div>
 		</footer>
 		
@@ -23,15 +11,14 @@
 		
 		<!--[if lte IE 8]>
 			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-			<script>window.jQuery || document.write('<script src="js/dist/jquery.min.js"><\/script>')</script>
-			<script src="js/dist/respond.js"></script>
+			<script>window.jQuery || document.write('<script src="assets/js/dist/vendor/jquery.min.js"><\/script>')</script>
+			<script src="assets/js/dist/vendor/respond.js"></script>
 		<![endif]-->
 		
 		<!--[if gt IE 8]><!-->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="js/dist/vendor/jquery.2.min.js"><\/script>')</script>
+		<script>window.jQuery || document.write('<script src="assets/js/dist/vendor/jquery.2.min.js"><\/script>')</script>
 		<script src="assets/js/dist/vendor/jquery-migrate-1.2.1.js"></script>
-		<!--<script src="assets/js/bootstrap.js"></script>-->
 		<!--<![endif]-->
 		
 		<script src="assets/js/dist/script.min.js"></script>
