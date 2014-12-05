@@ -2,7 +2,7 @@
 		<!--  === Footer ===  -->
 		<!--  ==============  -->
 		<footer>
-			<div class="row">
+			<div class="container">
 				
 			</div>
 		</footer>
