@@ -21,6 +21,14 @@ width-tabletlandscape-content = 1004px
 width-desktop-content = 1140px
 
 
+// Mixins
+// -------------------------
+/* - SVG background fallback to png for IE8 - */
+svg-bg-with-fallback(img,svg,xpos,ypos)
+	background url(img-folder img) xpos ypos no-repeat
+	background none, url(img-folder svg) xpos ypos no-repeat
+
+
 // Import
 // -------------------------
 @import "nib";
