@@ -5,20 +5,28 @@
 
 // Variables
 // -------------------------
-font-folder = "../../../assets/fonts/structure/"
-img-folder = "../../../assets/img/dist/"
+/* - Font Folder - */
+font-folder		= "../../../assets/fonts/structure/"
 
-width-mobileportrait = 320px
-width-mobilelandscape = 480px
-width-tabletportrait = 768px
-width-tabletlandscape = 1024px
-width-desktop = 1280px
+/* - Image Folder - */
+img-folder		= "../../../assets/img/dist/"
 
-width-mobileportrait-content = 300px
-width-mobilelandscape-content = 460px
-width-tabletportrait-content = 748px
-width-tabletlandscape-content = 1004px
-width-desktop-content = 1140px
+/* - Breakpoints - */
+width-mobileportrait	= 320px
+width-mobilelandscape	= 480px
+width-tabletportrait	= 768px
+width-tabletlandscape	= 992px
+width-desktop			= 1280px
+
+/* - Site Contant Width - */
+width-mobileportrait-content	= 300px
+width-mobilelandscape-content	= 460px
+width-tabletportrait-content	= 748px
+width-tabletlandscape-content	= 972px
+width-desktop-content			= 1140px
+
+/* - Site Common Colors - */
+site-black			= #000
 
 
 // Mixins
@@ -27,6 +35,26 @@ width-desktop-content = 1140px
 svg-bg-with-fallback(img,svg,xpos,ypos)
 	background url(img-folder img) xpos ypos no-repeat
 	background none, url(img-folder svg) xpos ypos no-repeat
+
+/* - Responsive image - */
+responsiveImg()
+	display block
+	height auto
+	padding 10px
+	max-width 100%
+	width 100%
+	
+/* - Hide on Tablet Landscape - */
+hideonTabletLandscape()
+	@media (min-width: width-tabletlandscape)
+		display none
+		
+/* - Show on Tablet Landscape - */
+showonTabletLandscape()
+	display none
+	
+	@media (min-width: width-tabletlandscape)
+		display block
 
 
 // Import
