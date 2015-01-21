@@ -5,14 +5,14 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title></title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 		
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/dist/style.min.css">
 		
 		<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -28,7 +28,7 @@
 		<!--  ==============  -->
 		<!--  === Header ===  -->
 		<!--  ==============  -->
-		<header role="navigation">
+		<header>
 			<div class="container">
 				
 			</div>
