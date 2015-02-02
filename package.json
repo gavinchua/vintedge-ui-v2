@@ -1,8 +1,8 @@
 {
-  "name": "Vintedge",
+  "name": "UI for Vintedge",
   "version": "0.0.1",
   "homepage": "http://vintedge.com/",
-  "author": "Vintedge",
+  "author": "Vintedge UI",
   "devDependencies": {
     "glob": "~4.0.6",
     "grunt": "~0.4.5",

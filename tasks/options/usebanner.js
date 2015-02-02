@@ -5,6 +5,7 @@ module.exports = {
 				' * <%= pkg.name %>\n' +
 				' * v<%= pkg.version %>\n' +
 				' * <%= grunt.template.today("dd-mm-yyyy") %>\n' +
+				' * by <%= pkg.author %>\n' +
 				' * <%= pkg.homepage %>\n' +
 				//' * Licensed under MIT (<%= _.pluck(pkg.licenses, "url").join(", ") %>)\n' +
 				' */\n\n'
@@ -19,6 +20,7 @@ module.exports = {
 				' * <%= pkg.name %>\n' +
 				' * v<%= pkg.version %>\n' +
 				' * <%= grunt.template.today("dd-mm-yyyy") %>\n' +
+				' * by <%= pkg.author %>\n' +
 				' * <%= pkg.homepage %>\n' +
 				//' * Licensed under MIT (<%= _.pluck(pkg.licenses, "url").join(", ") %>)\n' +
 				' */\n\n'
