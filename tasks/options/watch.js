@@ -4,14 +4,14 @@ module.exports = {
 	},
 	scripts: {
 		files: ['assets/js/src/plugins/*.js', 'assets/js/src/script.js'],
-		tasks: ['jshint', 'concat', 'uglify'],
+		tasks: ['jshint', 'concat', 'uglify', 'usebanner'],
 		options: {
 			spawn: false,
 		}
 	},
 	css: {
 		files: ['assets/css/src/structure/style.styl', 'assets/css/src/plugins/*.css', 'assets/css/src/structure/*/*.styl'],
-		tasks: ['stylus', 'cssmin'],
+		tasks: ['stylus', 'cssmin', 'usebanner'],
 		options: {
 			spawn: false,
 		}
