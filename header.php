@@ -13,7 +13,7 @@
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		<!-- Place favicon.ico in the root directory -->
 		
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/dist/style.min.css">
 		
 		<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -31,6 +31,8 @@
 		<!--  ==============  -->
 		<header>
 			<div class="container">
-				
+				<div class="row">
+					
+				</div>
 			</div>
 		</header>
