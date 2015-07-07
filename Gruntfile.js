@@ -32,7 +32,7 @@ module.exports = function(grunt) {
 	require('load-grunt-tasks')(grunt);
 	
 	// Default Task is basically a rebuild
-	grunt.registerTask('default', ['concat', 'uglify', 'stylus', 'imagemin', 'cssmin', 'usebanner']);
+	grunt.registerTask('default', ['concat', 'uglify', 'stylus', 'imagemin', 'cssmin', 'jade', 'usebanner']);
 	
 	// Moved to the tasks folder:
 	grunt.registerTask('dev', ['watch']);

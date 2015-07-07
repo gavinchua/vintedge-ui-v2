@@ -146,7 +146,7 @@
 					<code class="lang-shell">
 ...
 // Default Task is basically a rebuild
-grunt.registerTask('default', ['concat', 'uglify', 'stylus', 'imagemin', 'cssmin', 'usebanner']);
+grunt.registerTask('default', ['concat', 'uglify', 'stylus', 'imagemin', 'cssmin', 'jade', 'usebanner']);
 ...
 					</code>
 				</pre>
@@ -185,8 +185,16 @@ grunt.registerTask('default', ['concat', 'uglify', 'stylus', 'imagemin', 'cssmin
 			
 			<section class="slide">
 				<h2>Step 7</h2>
+				<p>assets/jade/src</p>
+				<p>HTML is coded with <a href="http://jade-lang.com/" target="_blank">Jade</a>.
+				<p class="slide">This should be your jade folder structure.</p>
+				<p class="slide"><img src="img/img5.png" /></p>
+			</section>
+			
+			<section class="slide">
+				<h2>Step 8</h2>
 				<p>assets/css/src/structure</p>
-				<p>CSS coded with <a href="http://learnboost.github.io/stylus/" target="_blank">Stylus</a>.
+				<p>CSS is coded with <a href="http://learnboost.github.io/stylus/" target="_blank">Stylus</a>.
 				<p>Why Stylus? And Not SASS or LESS</p>
 				<ul>
 					<li class="slide">
@@ -200,11 +208,11 @@ grunt.registerTask('default', ['concat', 'uglify', 'stylus', 'imagemin', 'cssmin
 					</li>
 				</ul>
 				<p class="slide">This should be your css folder structure.</p>
-				<p class="slide"><img src="img/img5.png" /></p>
+				<p class="slide"><img src="img/img6.png" /></p>
 			</section>
 			
 			<section class="slide">
-				<h2>Step 7.1</h2>
+				<h2>Step 8.1</h2>
 				<p>assets/css/src/structure</p>
 				<p>You can change this to your preferred structure and remember to check tasks/options/stylus.js.</p>
 				<pre>
@@ -220,10 +228,10 @@ files: {
 			</section>
 			
 			<section class="slide">
-				<h2>Step 8</h2>
+				<h2>Step 9</h2>
 				<p>assets/img</p>
 				<p>Images are optimized from src folder to dist folder.
-				<p><img src="img/img6.png" /></p>
+				<p><img src="img/img7.png" /></p>
 				<p>You can change this to your preferred structure and remember to check tasks/options/imagemin.js.</p>
 				<pre>
 					<code class="lang-shell">
@@ -238,10 +246,10 @@ files: [{
 			</section>
 			
 			<section class="slide">
-				<h2>Step 9</h2>
+				<h2>Step 10</h2>
 				<p>assets/js</p>
 				<p>JS are combined from src folder to dist folder.
-				<p><img src="img/img7.png" /></p>
+				<p><img src="img/img8.png" /></p>
 				<p>You can change this to your preferred structure and remember to check tasks/options/concat.js.</p>
 				<pre>
 					<code class="lang-shell">
@@ -254,10 +262,10 @@ dist: {
 			</section>
 			
 			<section class="slide">
-				<h2>Step 9.1</h2>
+				<h2>Step 10.1</h2>
 				<p>assets/js/dist</p>
 				<p>JS are optimized from script.js to script.min.js.
-				<p><img src="img/img8.png" /></p>
+				<p><img src="img/img9.png" /></p>
 				<p>You can change this to your preferred structure and remember to check tasks/options/uglify.js.</p>
 				<pre>
 					<code class="lang-shell">
