@@ -1,9 +1,9 @@
 /*!
- * Vintedge
- * v0.0.1
- * 14-10-2014
- * http://vintedge.com/
+ * VintedgeUIV2 - v0.0.1
+ * Last updated: 12-06-2015
+ * by Vintedge UI - http://vintedge.com/
+ * Compiled using Grunt & Stylus (http://learnboost.github.io/stylus/)
  */
 
 
-body::before{content:phones portrait;font-weight:700;display:block;text-align:center;background:rgba(255,255,0,.9);position:absolute;right:0;left:0;top:0;z-index:99}@media (min-width:480px){body::before{content:phones landscape;font-weight:700;display:block;text-align:center;background:rgba(255,255,0,.9);position:absolute;right:0;left:0;top:0;z-index:99}}@media (min-width:768px){body::before{content:tablets portrait;font-weight:700;display:block;text-align:center;background:rgba(255,255,0,.9);position:absolute;right:0;left:0;top:0;z-index:99}}@media (min-width:992px){body::before{content:desktops;font-weight:700;display:block;text-align:center;background:rgba(255,255,0,.9);position:absolute;right:0;left:0;top:0;z-index:99}}@media (min-width:1200px){body::before{content:large desktops;font-weight:700;display:block;text-align:center;background:rgba(255,255,0,.9);position:absolute;right:0;left:0;top:0;z-index:99}}
+ul{list-style:none;margin:0;padding:0}a:focus{outline:0}h1,h2,h3,h4,h5,h6{margin:0}.lt-ie9 .container{width:1140px}
