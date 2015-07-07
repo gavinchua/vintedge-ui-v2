@@ -28,5 +28,12 @@ module.exports = {
 		options: {
 			spawn: false,
 		}
+	},
+	jade: {
+		files: ['assets/jade/src/includes/*.jade', 'assets/jade/src/pages/*.jade'],
+		tasks: ['jade'],
+		options: {
+			spawn: false,
+		}
 	}
 }
