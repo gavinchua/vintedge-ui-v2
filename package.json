@@ -9,7 +9,6 @@
     "grunt-banner": "^0.2.3",
     "grunt-contrib-concat": "~0.4.0",
     "grunt-contrib-cssmin": "~0.10.0",
-    "grunt-contrib-handlebars": "^0.10.2",
     "grunt-contrib-imagemin": "^0.7.1",
     "grunt-contrib-jade": "^0.14.1",
     "grunt-contrib-jshint": "~0.10.0",
