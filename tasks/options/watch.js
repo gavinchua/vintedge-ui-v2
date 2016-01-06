@@ -4,14 +4,14 @@ module.exports = {
 	},
 	scripts: {
 		files: ['assets/js/src/plugins/*.js', 'assets/js/src/script.js'],
-		tasks: ['jshint', 'concat', 'uglify'],
+		tasks: ['jshint', 'concat', 'uglify', 'usebanner'],
 		options: {
 			spawn: false,
 		}
 	},
 	css: {
 		files: ['assets/css/src/plugins/*.css', 'assets/css/src/structure/style.styl', 'assets/css/src/structure/*/*.styl'],
-		tasks: ['stylus', 'cssmin'],
+		tasks: ['stylus', 'cssmin', 'usebanner'],
 		options: {
 			spawn: false,
 		}
@@ -30,7 +30,7 @@ module.exports = {
 		}
 	},
 	jade: {
-		files: ['assets/jade/src/includes/*.jade', 'assets/jade/src/pages/*.jade'],
+		files: ['assets/jade/src/includes/*/*.jade', 'assets/jade/src/includes/*.jade', 'assets/jade/src/pages/*/*.jade', 'assets/jade/src/pages/*.jade', 'assets/jade/src/data/*.json'],
 		tasks: ['jade'],
 		options: {
 			spawn: false,

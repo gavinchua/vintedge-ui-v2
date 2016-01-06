@@ -7,21 +7,27 @@ footer
 		
 <!-- JavaScript at the bottom for fast page loading -->
 
-script(src="assets/js/dist/vendor/modernizr.min.js")
+script( src=pagename === "home" ? "assets/js/dist/vendor/modernizr.min.js" : "../assets/js/dist/vendor/modernizr.min.js" )
 
 <!--[if lte IE 8]>
-script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js")
-<script>window.jQuery || document.write('<script src="assets/js/dist/vendor/jquery.min.js"><\/script>')</script>
+script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+if pagename === "home"
+	<script>window.jQuery || document.write('<script src="assets/js/dist/vendor/jquery.min.js"><\/script>')</script>
+else
+	<script>window.jQuery || document.write('<script src="../assets/js/dist/vendor/jquery.min.js"><\/script>')</script>
 script(src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js")
 <![endif]-->
 
 <!--[if gt IE 8]><!-->
-script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
-<script>window.jQuery || document.write('<script src="assets/js/dist/vendor/jquery.2.min.js"><\/script>')</script>
-<!--script(src="//cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js")-->
+script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
+if pagename === "home"
+	<script>window.jQuery || document.write('<script src="assets/js/dist/vendor/jquery.2.min.js"><\/script>')</script>
+else
+	<script>window.jQuery || document.write('<script src="../assets/js/dist/vendor/jquery.2.min.js"><\/script>')</script>
+script(src="//cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js")
 <!--<![endif]-->
 
-script(src="assets/js/dist/script.min.js")
+script( src=pagename === "home" ? "assets/js/dist/script.min.js" : "../assets/js/dist/script.min.js" )
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 script.
