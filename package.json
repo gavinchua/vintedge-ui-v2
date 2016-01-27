@@ -4,19 +4,19 @@
   "homepage": "http://vintedge.com/",
   "author": "Vintedge UI",
   "devDependencies": {
-    "glob": "~4.0.6",
+    "glob": "~6.0.4",
     "grunt": "~0.4.5",
     "grunt-banner": "^0.2.3",
-    "grunt-contrib-concat": "~0.4.0",
-    "grunt-contrib-cssmin": "~0.10.0",
-    "grunt-contrib-imagemin": "^0.7.1",
-    "grunt-contrib-jade": "^0.14.1",
-    "grunt-contrib-jshint": "~0.10.0",
-    "grunt-contrib-stylus": "~0.18.0",
-    "grunt-contrib-uglify": "^0.5.0",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-cssmin": "~0.14.0",
+    "grunt-contrib-imagemin": "^1.0.0",
+    "grunt-contrib-jade": "^0.15.0",
+    "grunt-contrib-jshint": "~0.12.0",
+    "grunt-contrib-stylus": "~1.0.0",
+    "grunt-contrib-uglify": "^0.11.0",
     "grunt-contrib-watch": "^0.6.1"
   },
   "dependencies": {
-    "load-grunt-tasks": "^0.6.0"
+    "load-grunt-tasks": "^3.4.0"
   }
 }
