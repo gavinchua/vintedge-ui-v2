@@ -26,6 +26,7 @@ width-tabletlandscape-content	= 972px
 width-desktop-content			= 1140px
 
 /* - Site Common Colors - */
+/* http://www.colorhexa.com */
 site-black			= #000
 site-white			= #fff
 
@@ -44,6 +45,18 @@ responsiveImg()
 	max-width 100%
 	width 100%
 	
+/* - Hide on Tablet Portrait - */
+hideonTabletPortrait()
+	@media (min-width: width-tabletportrait)
+		display none
+		
+/* - Show on Tablet Portrait - */
+showonTabletPortrait()
+	display none
+	
+	@media (min-width: width-tabletportrait)
+		display block
+		
 /* - Hide on Tablet Landscape - */
 hideonTabletLandscape()
 	@media (min-width: width-tabletlandscape)
