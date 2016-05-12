@@ -8,7 +8,7 @@ module.exports = {
 		expand: true,
 		cwd: 'assets/jade/src/pages',
 		src: ['**/*.jade'],	// src
-		dest: './',	// dist
+		dest: 'assets/html',	// dist
 		ext: '.html'
 	}
 }

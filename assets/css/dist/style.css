@@ -1,11 +1,24 @@
 
 
 
-
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+ol {
+  margin: 0;
+  padding-left: 15px;
+}
+ol li {
+  padding-left: 5px;
+}
+.disc {
+  list-style-type: disc;
+  margin-left: 15px;
+}
+.disc li {
+  padding-left: 5px;
 }
 
 a:focus {
@@ -30,6 +43,7 @@ h6 {
 }
 
 /*@media all and (-webkit-min-device-pixel-ratio:10000),not all and (-webkit-min-device-pixel-ratio:0)*/
+
 
 
 

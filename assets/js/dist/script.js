@@ -19,13 +19,16 @@ Functions
 	jQuery Ready
 	========================================================================== */
 	
-	$( document ).ready( function() {
+	$( document ).ready( function(){
+		/*	--------------------------------------------------
+			:: Load Google Font
+			-------------------------------------------------- */
+			loadGoogleFontFN();
+			
 		/*	--------------------------------------------------
 			:: Window Width
 			-------------------------------------------------- */
 			windowWidthFN();
-			
-			
 	});
 
 
@@ -34,7 +37,7 @@ Functions
 	jQuery Window Resize
 	========================================================================== */
 	
-	$( window ).on( 'resize' , function(){
+	$( window ).on( 'resize', function(){
 		/*	--------------------------------------------------
 			:: 
 			-------------------------------------------------- */
@@ -47,12 +50,12 @@ Functions
 	jQuery Window Load
 	========================================================================== */
 	
-	$( window ).load(function () {
+	$( window ).load( function() {
 		/*	--------------------------------------------------
 			:: 
 			-------------------------------------------------- */
 			
-    });
+	});
 	
 	
 	
@@ -60,12 +63,12 @@ Functions
 	jQuery Window Unload
 	========================================================================== */
 	
-	$( window ).unload(function () {
+	$( window ).unload( function () {
 		/*	--------------------------------------------------
 			:: 
 			-------------------------------------------------- */
 			
-    });
+	});
 
 
 
@@ -74,11 +77,44 @@ Functions
 	========================================================================== */
 	
 	/*	--------------------------------------------------
+		:: Load Google Font
+		-------------------------------------------------- */
+		function loadGoogleFontFN() {
+			WebFontConfig = {
+				google: { families: [ 'Lato:300,700:latin' ] }
+			};
+			(function() {
+				var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+			})();
+		}
+		
+	/*	--------------------------------------------------
 		:: Window Width
 		-------------------------------------------------- */
 		function windowWidthFN() {
 			var windowWidth =  $( window ).width();
 			return windowWidth;
+		}
+		
+	/*	--------------------------------------------------
+		:: Window Height
+		-------------------------------------------------- */
+		function windowHeightFN() {
+			var windowHeight =  $( window ).height();
+			return windowHeight;
+		}
+		
+	/*	--------------------------------------------------
+		:: Body Height
+		-------------------------------------------------- */
+		function bodyHeightFN() {
+			var bodyHeight =  $( 'body' ).height();
+			return bodyHeight;
 		}
 		
 	/*	--------------------------------------------------

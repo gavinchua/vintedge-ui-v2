@@ -17,8 +17,8 @@ module.exports = {
 		}
 	},
 	images: {
-		files: ['assets/img/src/*.{png,jpg,gif,svg}', 'assets/img/src/*/*.{png,jpg,gif,svg}'],
-		tasks: ['imagemin'],
+		files: ['assets/img/src/*.{png,jpg}', 'assets/img/src/*/*.{png,jpg}'],
+		tasks: ['smushit'],
 		options: {
 			spawn: false,
 		}

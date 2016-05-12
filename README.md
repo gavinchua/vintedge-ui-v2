@@ -10,17 +10,8 @@ Automation for UI Developement.<br />
 Extract node_modules.zip to working folder for Grunt.
 
 #####What are the task added?
-* autoprefixer - removed
-* concat
-* cssmin
-* imagemin
-* jshint
-* responsive_images - removed
-* sprite - removed
-* styleguide - removed
-* stylus
-* watch
-* uglify
+* prettify
+* smushit
 
 
 ####Markdown Guide:
@@ -94,9 +85,9 @@ A sample style guide can be found @:<br />
 http://10.10.10.10/_references/template/assets/css/build/styleguide/breadcrumbs.html
 
 
-####Imagemin
+####Smushit
 Minify PNG and JPEG images.<br />
-https://github.com/gruntjs/grunt-contrib-imagemin
+https://github.com/heldr/grunt-smushit
 
 
 ####Sprite Generator
@@ -197,23 +188,4 @@ http://breakpointtester.com/
 
 ####RWD Showcase
 http://mediaqueri.es/<br />
-http://www.awwwards.com/<br /><br />
-
-
-
-**********
-
-###TO DO
-
-####HandleBars
-Handlebars provides the power necessary to let you build semantic templates effectively with no frustration.<br />
-http://handlebarsjs.com/<br />
-https://www.npmjs.org/package/grunt-compile-handlebars
-
-
-####jade
-http://jade-lang.com/
-
-
-####Transparency
-http://leonidas.github.io/transparency/
+http://www.awwwards.com/
