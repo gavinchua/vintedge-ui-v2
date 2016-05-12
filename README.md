@@ -1,7 +1,7 @@
 Vintedge-UI V2
 ==============
 
-![Vintedge](http://vintedge.com/images/logo.gif "Vintedge")
+![Vintedge](http://vintedge.com/images/logo_vintedge_sm.png "Vintedge")
 
 ###Vintedge UI Template V2
 Automation for UI Developement.<br />
