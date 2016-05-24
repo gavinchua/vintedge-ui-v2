@@ -13,13 +13,21 @@ script( src=pagename === "home" ? "assets/js/dist/vendor/modernizr.min.js" : "..
 
 <!-- Remove if you dont need to support IE8 & lower -->
 <!--[if lte IE 8]>
-script( src=pagename === "home" ? "assets/js/dist/jquery.min.js" : "../assets/js/dist/jquery.min.js" )
-script( src=pagename === "home" ? "assets/js/dist/respond.js" : "../assets/js/dist/respond.js" )
-script( src=pagename === "home" ? "assets/js/dist/jquery-migrate.js" : "../assets/js/dist/jquery-migrate.js" )
+script(src="//code.jquery.com/jquery-1.12.4.min.js")
+if pagename === "home"
+	<script>window.jQuery || document.write('<script src="assets/js/dist/vendor/jquery.min.js"><\/script>')</script>
+else
+	<script>window.jQuery || document.write('<script src="../assets/js/dist/vendor/jquery.min.js"><\/script>')</script>
+script( src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js" )
+script( src="//cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js" )
 <![endif]-->
 
 <!--[if gt IE 8]><!-->
-script( src=pagename === "home" ? "assets/js/dist/jquery.2.min.js" : "../assets/js/dist/jquery.2.min.js" )
+script(src="//code.jquery.com/jquery-2.2.4.min.js")
+if pagename === "home"
+	<script>window.jQuery || document.write('<script src="assets/js/dist/vendor/jquery.2.min.js"><\/script>')</script>
+else
+	<script>window.jQuery || document.write('<script src="../assets/js/dist/vendor/jquery.2.min.js"><\/script>')</script>
 <!--<![endif]-->
 
 script( src=pagename === "home" ? "assets/js/dist/script.min.js" : "../assets/js/dist/script.min.js" )
