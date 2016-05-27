@@ -23,15 +23,16 @@ module.exports = {
 			spawn: false,
 		}
 	},
-	html: {
-		files: ['*.html','*.php','*.asp'],
-		options: {
-			spawn: false,
-		}
-	},
+	//html: {
+		//files: ['assets/html/*/*.html', 'assets/html/*.html'],
+		//tasks: ['prettify'],
+		//options: {
+			//spawn: false,
+		//}
+	//},
 	jade: {
-		files: ['assets/jade/src/includes/*/*.jade', 'assets/jade/src/includes/*.jade', 'assets/jade/src/pages/*/*.jade', 'assets/jade/src/pages/*.jade', 'assets/jade/src/data/*.json'],
-		tasks: ['jade'],
+		files: ['assets/jade/src/includes/*/*.jade', 'assets/jade/src/includes/*.jade', 'assets/jade/src/pages/*/*.jade', 'assets/jade/src/pages/*.jade', 'assets/jade/src/data/*.json', 'assets/html/*/*.html', 'assets/html/*.html'],
+		tasks: ['jade', 'prettify'],
 		options: {
 			spawn: false,
 		}

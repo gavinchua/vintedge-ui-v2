@@ -7,19 +7,18 @@ footer
 		
 <!-- JavaScript at the bottom for fast page loading -->
 
-<!-- Uncomment if you need Modernizr
+<!-- Delete if you do not need Modernizr -->
 script( src=pagename === "home" ? "assets/js/dist/vendor/modernizr.min.js" : "../assets/js/dist/vendor/modernizr.min.js" )
--->
 
 <!-- Remove if you dont need to support IE8 & lower -->
 <!--[if lte IE 8]>
-script( src=pagename === "home" ? "assets/js/dist/jquery.min.js" : "../assets/js/dist/jquery.min.js" )
-script( src=pagename === "home" ? "assets/js/dist/respond.js" : "../assets/js/dist/respond.js" )
-script( src=pagename === "home" ? "assets/js/dist/jquery-migrate.js" : "../assets/js/dist/jquery-migrate.js" )
+script( src=pagename === "home" ? "assets/js/dist/vendor/jquery.min.js" : "../assets/js/dist/vendor/jquery.min.js" )
+script( src=pagename === "home" ? "assets/js/dist/vendor/respond.js" : "../assets/js/dist/vendor/respond.js" )
+script( src=pagename === "home" ? "assets/js/dist/vendor/jquery-migrate.js" : "../assets/js/dist/vendor/jquery-migrate.js" )
 <![endif]-->
 
 <!--[if gt IE 8]><!-->
-script( src=pagename === "home" ? "assets/js/dist/jquery.2.min.js" : "../assets/js/dist/jquery.2.min.js" )
+script( src=pagename === "home" ? "assets/js/dist/vendor/jquery.2.min.js" : "../assets/js/dist/vendor/jquery.2.min.js" )
 <!--<![endif]-->
 
 script( src=pagename === "home" ? "assets/js/dist/script.min.js" : "../assets/js/dist/script.min.js" )
