@@ -1,6 +1,5 @@
 module.exports = {
 	options: {
-		//data: require('./data/data.json'),
 		basedir: 'assets/jade/src',
 		pretty: true
 	},
