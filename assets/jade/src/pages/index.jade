@@ -6,8 +6,9 @@ include /includes/header
 <!--  ====================  -->
 <!--  === Main content ===  -->
 <!--  ====================  -->
-div(class="container " + pagename, role="main" )
-	div.row
-		p #{pagename}
-		
+div(class="main " + pagename, role="main" )
+	div.container
+		div.row
+			p #{pagename}
+			
 include /includes/footer
